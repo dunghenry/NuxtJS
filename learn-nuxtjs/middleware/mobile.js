@@ -1,7 +1,7 @@
 const isLogin = true;
 export default function (context) {
     context.isMobile = false;
-    console.log("middleware mobile:", Object.keys(context));
+    // console.log("middleware mobile:", Object.keys(context));
     let userAgent ='';
     if(context.req){
       userAgent = context.req.headers['user-agent'];

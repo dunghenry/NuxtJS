@@ -18,18 +18,6 @@ export default {
   layout(context){
     console.log("User layout: " + Object.keys(context))
     const isMobile = context.isMobile;
-    // console.log(Object.keys(context));
-    // let userAgent ='';
-    // if(context.req){
-    //   userAgent = context.req.headers['user-agent'];
-    // }
-    // else{
-    //   userAgent = navigator.userAgent;
-    // }
-    // console.log(userAgent);
-    // if(/mobile/i.test(userAgent)){
-    //   return 'mobile'
-    // }
     if(isMobile){
       return 'mobile'
     }
