@@ -1,12 +1,12 @@
 <template>
   <div>
-      <h1>Users Page (index.vue)</h1>
+      <h1>Footer Component</h1>
   </div>
 </template>
 
 <script>
 export default {
-  
+
 }
 </script>
 
